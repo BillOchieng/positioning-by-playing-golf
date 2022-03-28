@@ -8,9 +8,9 @@
 
 #hole-2 #ball {
   /* position this item */
-  position: relative;
-  top: -94%;
-  right: -3%;
+  position: absolute;
+  top: 11vw;
+  left: 11vw;
 }
 
 #hole-3 #ball {
@@ -21,11 +21,7 @@
 
 #hole-4 #ball {
   /* position this item */
-  left: calc(90% -4vw);
-  top: 200%;
-  z-index: 10;
-  position: absolute;
-  
+  top: 50%;
 }
 
 #hole-5 #ball {
@@ -39,7 +35,7 @@
   /* position this item */
   position: relative;
   left: 89vw;
-  top: 8vw;
+  top: -2vw;
 }
 
 #hole-7 #ball {
@@ -64,7 +60,7 @@
 #hole-8 #target {
   left: 50%;
   /* HINT -- MOVE THE TARGET */
-  /* TODO position this item */
+  /* position this item */
 }
 
 #hole-9 #ball {
@@ -74,5 +70,5 @@
   left: 20px;
   width: 200px;
   height: 150px;
-  box-shadow: 0 0 0 9999px rgba(0, 0, 255, 0.2);
+  box-shadow: 0 0 0 9999px #222C40(0, 0, 255, 0.2);
 }

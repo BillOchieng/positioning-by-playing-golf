@@ -33,9 +33,9 @@
 
 #hole-6 #ball {
   /* position this item */
-  position: relative;
-  left: 89vw;
-  top: -2vw;
+  position: absolute;
+  left: 1vw;
+  top: 1vw;
 }
 
 #hole-7 #ball {
